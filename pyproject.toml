@@ -3,13 +3,11 @@ name = "django-test"
 version = "0.1.0"
 description = ""
 authors = ["hasnain <hasnain@zeropoint.hr>"]
-readme = "README.md"
-packages = [{include = "django_test"}]
+readme = "readme.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Django = "^4.1.0"
-gunicorn = "^20.1.0"
+django = "^4.1.0"
 
 
 [build-system]
